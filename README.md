@@ -14,7 +14,7 @@ Using a vast dataset from Kickstarter spanning nine years, I created a pivot tab
 
 I created a PivotChart off of this table in order to provide Louise a visualization on what times of the year over the past nine years had the most successful theater campaigns. 
 
-![Theater_Outcomes_Date] (Theater_Outcomes_vs_Launch.png.png)
+![Theater_Outcomes_Dates](Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
