@@ -16,8 +16,17 @@ I created a PivotChart off of this table in order to provide Louise a visualizat
 
 ![Theater_Outcomes_Dates](Theater_Outcomes_vs_Launch.png)
 
-
 ### Analysis of Outcomes Based on Goals
+Using the same dataset from Kickstart, I also wanted to assist Louise in figuring out what the best goal amount would be to ensure her campaign's success. I first created 12 buckets encapsulating a range of goal amounts to get a better idea of what monetary range led to the highest percentage of successful campaigns. I built the following table to assist in my analysis:
+
+![Buckets](Goal_Buckets.png)
+
+In order to capture the amount of success, failed, and cancelled campaigns by bucket, I used the following formula: 
+
+=COUNTIFS(Kickstarter!$F$F,"*outcome*",Kickstarter!$R$R,"plays",Kickstarter!$D$D,">=*lower_bound_bucket*",Kickstarter!$D$D,"*upper_bound_bucket*")
+
+This forumula filled columns B through D. I then summed up the total amount of campaigns by bucket to come to the "Total Projects" in Column E by using the =SUM() formula. 
+
 ### Challenges and Difficulties Encountered
 
 ## Results
