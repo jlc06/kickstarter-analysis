@@ -3,11 +3,14 @@
 ## Overview of Project
 
 ### Purpose:
-- Using Kickstarter data, this analysis compared how theater campaigns faired given their launch date and their funding goals in an effort to provide my friend Louise with the optimal time to launch her own venture.
+- Using Kickstarter data, this analysis compared how theater campaigns faired given their launch date and their funding goals in an effort to provide my friend Louise with the optimal time and goal amount to launch her own venture. 
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
+- Using a vast dataset from Kickstarter spanning nine years, I created a pivot table in order to analyze campaign outcomes based on their launch dates. Knowing Louise was interested in theater campaigns to act as a point of comparison to her own, I filterd the pivot table on the "theater" category. I also added a "Years" column to the dataset using the following code: =Years(Cell). I included this column as a filter on the pivot table just in case Louise wanted to drill down to a more specific time period. 
+
+
 ### Analysis of Outcomes Based on Goals
 ### Challenges and Difficulties Encountered
 
