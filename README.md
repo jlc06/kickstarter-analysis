@@ -10,7 +10,7 @@
 ### Analysis of Outcomes Based on Launch Date
 - Using a vast dataset from Kickstarter spanning nine years, I created a pivot table in order to analyze campaign outcomes based on their launch dates. Knowing Louise was interested in theater campaigns to act as a point of comparison to her own, I filterd the pivot table on the "theater" category. I also added a "Years" column to the dataset using the following code: =Years(Cell). I included this column as a filter on the pivot table just in case Louise wanted to drill down to a more specific time period. 
 
-![Dates_Pivot](/images/Dates_Pivot.png)
+![Dates_Pivot](Dates_Pivot.png)
 ### Analysis of Outcomes Based on Goals
 ### Challenges and Difficulties Encountered
 
